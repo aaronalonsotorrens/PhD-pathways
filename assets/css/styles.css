@@ -16,5 +16,22 @@ header {
     width: 100%;
     position: fixed;
     z-index: 80%;
-    
+
+}
+
+header a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: #3a3a3a;
+    font-size: 120%;
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
 }
