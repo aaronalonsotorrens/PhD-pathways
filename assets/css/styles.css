@@ -1,4 +1,8 @@
 
+/* Google fonts import */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -16,6 +20,10 @@ header {
     width: 100%;
     position: fixed;
     z-index: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 1rem;
 
 }
 
@@ -25,13 +33,50 @@ header a {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'lato', sans-serif;
     letter-spacing: 2px;
     color: #3a3a3a;
-    font-size: 120%;
+    font-size: 180%;
+}
+
+header p {
+    font-family: 'lato', sans-serif;
+    color: #3a3a3a;
+    font-size: 100%;
+
 }
 
 #menu {
     font-size: 110%;
     list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+/* Navbar styles with dropdown toggle */
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
