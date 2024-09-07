@@ -13,37 +13,47 @@
     box-sizing: border-box;
 }
 
+/*General styles*/
+body {
+    background-color: #edeae5c4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    color: #252525;
+    font-size: 100%;
+}
+
 /*Header*/
 
 header {
     background-color: #026670;
-    width: 100%;
+    padding: 2rem;
     position: fixed;
     z-index: 80%;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0 1rem;
-
+    min-height: 5vh;
 }
+
+#logo {
+    font-size: 200%;
+}
+
 
 header a {
     text-decoration: none;
     color: #3a3a3a;
-}
-
-h1 {
-    font-family: 'lato', sans-serif;
-    letter-spacing: 2px;
-    color: #3a3a3a;
-    font-size: 180%;
-}
-
-header p {
-    font-family: 'lato', sans-serif;
-    color: #3a3a3a;
-    font-size: 100%;
-
 }
 
 #menu {
@@ -79,4 +89,36 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+}
+
+/*Body and main content*/
+
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 200px;
+    
+}
+
+#purpose p {
+    margin: 20px auto;
+    width: 90%;
+    font-size:120%;
+    
+    
+}
+
+
+
+
+
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size:280%;
 }
