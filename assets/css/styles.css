@@ -129,10 +129,20 @@ main {
     text-align:left;
 }
 
-#purpose p {
+#purpose {
     margin: 20px auto;
     width: 90%;
-    font-size:120%;
+}
+
+#purpose h2 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 180%;
+}
+
+#purpose p {
+    font-size:80%;
+    text-align: center;
     
 }
 
@@ -144,13 +154,34 @@ main {
 
 #careers > h3 {
     background-color: #9FEDD7;
-    font-size:160%;
+    font-size:100%;
     padding: 0.5rem;
 }
 
-#career-options {
-    margin-top: 10px;
 
+#biotech-industry {
+	background-color: #9FEDD780;
+    position: relative;
+    left: 70px;
+}
+
+#IT {
+	background-color: #6f4e37;
+	position: relative;
+	z-index: 1;
+}
+
+#business {
+	background-color: chocolate;
+    position: relative;
+    right: 70px;
+}
+
+.careers-box {
+	width: 33%;
+	margin: 1rem 0;
+	display: inline-block;
+    margin-top: 10px;
 }
 
 /* Footer */
