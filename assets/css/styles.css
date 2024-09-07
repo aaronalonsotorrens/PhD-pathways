@@ -47,7 +47,8 @@ header {
 }
 
 #logo {
-    font-size: 200%;
+    font-size: 150%;
+    color:#ffe06e
 }
 
 
@@ -97,7 +98,6 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 100px;
-    
 }
 
 #front-image {
@@ -105,6 +105,26 @@ main {
     width: 100%;
     background: url("./images/frontpage-lightbulb 2.png") no-repeat center center/cover;
     position: relative;
+}
+
+#cover-text {
+    font-size:130%;
+    position:absolute;
+    bottom: 30px;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    width: 50%;
+    
+}
+
+#cover-text > h2 {
+    font-size: 200%;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #fce181;;
+    text-align:justify;
 }
 
 #purpose p {
@@ -129,4 +149,19 @@ main {
 #career-options {
     margin-top: 10px;
 
+}
+
+/* Footer */
+#social-network {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-network i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
