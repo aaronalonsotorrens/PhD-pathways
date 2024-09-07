@@ -105,7 +105,23 @@ main {
     width: 90%;
     font-size:120%;
     
-    
+}
+
+#resources {
+    margin: 20px auto;
+    width: 90%;
+    font-size:120%;
+}
+
+#careers > h3 {
+    background-color: #9FEDD7;
+    font-size:160%;
+    padding: 0.5rem;
+}
+
+#career-options {
+    margin-top: 10px;
+
 }
 
 
