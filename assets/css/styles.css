@@ -145,7 +145,7 @@ main {
 #purpose p {
     font-size:120%;
     text-align: center;
-    
+    line-height: 1.5;
 }
 
 /* Resources */
@@ -175,6 +175,7 @@ main {
 ul {
     list-style-type: none;
     font-size: 120%;
+    line-height: 1.5;
 }
 
 
@@ -210,6 +211,37 @@ ul {
 .careers-box i {
     font-size: 120%;
     padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials > h3 {
+    background-color: #ffe06e;
+    font-size:140%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.testimonials-box {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonials-box > h2 {
+    padding: 10px 20px;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+.testimonials-box p {
+    padding: 10px 20px;
+    font-size: 90%;
+    line-height: 1.5;
+    text-align:justify;
+}
+
+.testimonials-box hr {
+    border-top: 1px solid #3a3a3a;
 }
 
 
@@ -289,5 +321,18 @@ ul {
         margin: 1rem 0;
         margin-top: 10px;
     }
+
+    /* Testimonials */
+    #testimonial-andrew, #testimonial-zara, #testimonial-ron {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #testimonial-zara {
+        text-align: end;
+        align-self: flex-end;
+    }
+    
 }
 
