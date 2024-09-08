@@ -270,6 +270,21 @@ ul {
     text-align:center;
 }
 
+#singular-img {
+    background: url("./images/Logo-Orange-Transparent-1200x538.png") no-repeat center center/cover;
+    height: 100px;
+    width: 25%;
+    position: relative;
+}
+
+#ukri-img {
+    background: url("./images/UKRI_8364f70b77.png") no-repeat center center/cover;
+    height: 100px;
+    width: 25%;
+    position: relative;
+}
+
+
 
 
 
