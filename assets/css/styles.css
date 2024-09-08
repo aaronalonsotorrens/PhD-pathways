@@ -208,6 +208,7 @@ ul {
     margin-bottom: 10px;
 }
 
+
 .careers-box i {
     font-size: 120%;
     padding: 5%;
@@ -257,7 +258,7 @@ ul {
     padding: 10px 20px;
     font-size: 90%;
     line-height: 1.5;
-    text-align:justify;
+    text-align:center;
 }
 
 #proteintech-img {
@@ -273,7 +274,7 @@ ul {
 }
 
 .support-material {
-    flex: 1 1 calc(33.33% - 1rem); /* Each section takes one-third of the container width */
+    flex: 1; /* Each section takes one-third of the container width */
     box-sizing: border-box;
     text-align: center;
 }
@@ -292,13 +293,13 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     height: 150px;
-    width: 100%;
+    width: 70%;
     position: relative;
+    margin-left:40px;
 }
 
 /* Flexbox for support material container */
 #support-material-box {
-    display: flex;
     justify-content: space-between; /* Ensures even spacing between items */
     flex-wrap: wrap; /* Allows wrapping for smaller screens */
     gap: 1rem; /* Adds space between items */
@@ -374,7 +375,7 @@ ul {
     /* Resources */
     .careers-box {
         display: inline-block;
-        width: 33%; 
+        width: 32%; /*WANT TO ASK HOW TO EDIT*/
         margin: 1rem 0;
         margin-top: 10px;
     }
@@ -393,26 +394,20 @@ ul {
 
     /* Support */
 
-    .-support-material {
-        display: inline-block;
-        width: 33%; 
-        margin: 1rem 0;
-        margin-top: 10px;
-    }
-    
-    #-proteintech-mat, #singular-mat, #ukri-mat {
-        text-align: center;
-        padding: 20px;
-        font-size: 90%;
-        text-decoration: none;
-        color:#3a3a3a;
-    }
-
     .support-material {
         .support-material {
             flex: 1 1 100%; /* Each section takes the full width */
     }
 }
+    #proteintech-mat, #singular-mat, #ukri-mat {
+        text-align: center;
+    }
+
+    #support-material-box {
+        display: flex;
+    }
+
+
 }
     
 
