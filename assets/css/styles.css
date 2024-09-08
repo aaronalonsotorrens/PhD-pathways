@@ -20,21 +20,21 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color:#3a3a3a;
     font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3 {
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
-    color: #252525;
+    color: #3a3a3a;
     font-size: 100%;
 }
 
 /*Header*/
 
 header {
-    background-color: #026670;
+    background-color: #0A7B79;
     padding: 2rem;
     position: fixed;
     z-index: 80;
@@ -48,13 +48,13 @@ header {
 
 #logo {
     font-size: 150%;
-    color:#ffe06e
+    color:#D3F2E9;
 }
 
 
 header a {
     text-decoration: none;
-    color: #3a3a3a;
+    color:#ffffff;
 }
 
 #menu {
@@ -64,13 +64,14 @@ header a {
 
 #menu > li {
     margin-bottom: 1em;
+    
 }
 
 /* Navbar styles with dropdown toggle */
 
 nav {
     position: absolute;
-    background-color: #026670;
+    background-color: #0A7B79;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -93,12 +94,14 @@ nav {
     cursor: pointer;
 }
 
+
 /*Body and main content*/
 
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 100px;
+    line-height: 1.8;
     
 }
 
@@ -107,9 +110,10 @@ main {
 #front-image {
     height: 600px;
     width: 100%;
-    background: url("./images/frontpage-lightbulb 2.png") no-repeat center center/cover;
+    background: url("./images/nature-adventure.jpg") no-repeat center center/cover;
     position: relative;
 }
+background: url("./images/frontpage-lightbulb 2.png") no-repeat center center/cover;
 
 #cover-text {
     font-size:100%;
@@ -127,12 +131,12 @@ main {
 }
 
 #cover-text > h2, #cover-text > h3 {
-    color: #fce181;
+    color: #ffffff;
     text-align:left;
 }
 
 #purpose {
-    margin: 20px auto;
+    margin: 60px auto;
     width: 90%;
 }
 
@@ -159,10 +163,12 @@ main {
 /* Careers */
 
 #careers > h3 {
-    background-color: #9FEDD7;
+    background-color: #026670;
     font-size:140%;
     padding: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    text-align:center;
+    color:#ffffff;
 }
 
 .careers-box > h2 {
@@ -181,7 +187,6 @@ ul {
 
 #biotech-industry {
 	background-color: #fce18189;
-    left: 70px;
     
 }
 
@@ -189,13 +194,11 @@ ul {
 	background-color: #02667089;
 	position: relative;
 	z-index: 1;
-    
-    
+ 
 }
 
 #business {
 	background-color: #029dab89;
-    right: 70px;
     
 }
 
@@ -205,7 +208,8 @@ ul {
     padding: 1rem;
     text-align: center;
     font-size: 60%;
-    margin-bottom: 10px;
+    margin-bottom: 2rem;
+    gap:1rem;
 }
 
 
@@ -216,16 +220,25 @@ ul {
 
 /* Testimonials */
 
+#testimonials {
+    padding: 1rem 0;
+	margin-bottom: 80px;
+	background: url('./images/think-positive.jpg') center center / cover no-repeat fixed;
+}
+
 #testimonials > h3 {
-    background-color: #ffe06e;
+    background-color: #026670;
     font-size:140%;
     padding: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color:#ffffff;
 }
 
 .testimonials-box {
     line-height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    background-color: #029dabe4;
 }
 
 .testimonials-box > h2 {
@@ -248,10 +261,12 @@ ul {
 /* Support */
 
 #support > h3 {
-    background-color: #ffe06e;
+    background-color: #026670;
     font-size:140%;
     padding: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color:#ffffff;
 }
 
 #support-description p {
@@ -259,6 +274,7 @@ ul {
     font-size: 90%;
     line-height: 1.5;
     text-align:center;
+    margin-bottom: 2rem;
 }
 
 #proteintech-img {
@@ -332,7 +348,7 @@ ul {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        background-color: #026670;
+        background-color: #0A7B79;
     }
 
     #menu {
@@ -375,8 +391,7 @@ ul {
     /* Resources */
     .careers-box {
         display: inline-block;
-        width: 32%; /*WANT TO ASK HOW TO EDIT*/
-        margin: 1rem 0;
+        width: 32%; /*WANT TO ASK HOW TO EDIT*/ 
         margin-top: 10px;
     }
 
