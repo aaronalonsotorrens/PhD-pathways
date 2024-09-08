@@ -244,7 +244,7 @@ ul {
     border-top: 1px solid #3a3a3a;
 }
 
-/* Resources */
+/* Support */
 
 #support > h3 {
     background-color: #ffe06e;
@@ -253,40 +253,56 @@ ul {
     margin-bottom: 0.5rem;
 }
 
-#support-description > h2 {
+#support-description p {
     padding: 10px 20px;
-    font-size: 100%;
+    font-size: 90%;
     line-height: 1.5;
+    text-align:justify;
 }
 
 #proteintech-img {
-    background: url("./images/Proteintech-Group.jpg") no-repeat center center/cover;
-    height: 100px;
-    width: 25%;
-    position: relative;
-}
-
-#proteintech-mat a {
-    text-align:center;
+    background: url("./images/Proteintech-Group .jpg") no-repeat center center/cover;
 }
 
 #singular-img {
-    background: url("./images/Logo-Orange-Transparent-1200x538.png") no-repeat center center/cover;
-    height: 100px;
-    width: 25%;
-    position: relative;
+    background: url("./images/singular.png") no-repeat center center/cover; 
 }
 
 #ukri-img {
     background: url("./images/UKRI_8364f70b77.png") no-repeat center center/cover;
-    height: 100px;
-    width: 25%;
-    position: relative;
+}
+
+.support-material {
+    flex: 1 1 calc(33.33% - 1rem); /* Each section takes one-third of the container width */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#proteintech-mat, #singular-mat, #ukri-mat {
+    text-align: center;
+    padding: 10px;
+    font-size: 90%;
+    text-decoration: none;
+    color:#3a3a3a;
 }
 
 
+#proteintech-img, #singular-img, #ukri-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
 
-
+/* Flexbox for support material container */
+#support-material-box {
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing between items */
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    gap: 1rem; /* Adds space between items */
+}
 
 
 /* Footer */
@@ -374,6 +390,30 @@ ul {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Support */
+
+    .-support-material {
+        display: inline-block;
+        width: 33%; 
+        margin: 1rem 0;
+        margin-top: 10px;
+    }
     
+    #-proteintech-mat, #singular-mat, #ukri-mat {
+        text-align: center;
+        padding: 20px;
+        font-size: 90%;
+        text-decoration: none;
+        color:#3a3a3a;
+    }
+
+    .support-material {
+        .support-material {
+            flex: 1 1 100%; /* Each section takes the full width */
+    }
 }
+}
+    
+
 
