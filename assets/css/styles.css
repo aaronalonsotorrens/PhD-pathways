@@ -102,6 +102,8 @@ main {
     
 }
 
+/* Front image */
+
 #front-image {
     height: 600px;
     width: 100%;
@@ -146,12 +148,15 @@ main {
     
 }
 
+/* Resources */
+
 #resources {
     margin: 20px auto;
     width: 90%;
     font-size:120%;
 }
 
+/* Careers */
 
 #careers > h3 {
     background-color: #9FEDD7;
