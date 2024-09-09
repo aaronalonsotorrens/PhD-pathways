@@ -442,6 +442,13 @@ footer {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    #front-image {
+    height: 800px;
+    }
+}
+
+
 /*Form*/
 
 #signup {
