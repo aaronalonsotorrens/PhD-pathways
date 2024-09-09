@@ -110,29 +110,37 @@ main {
 #front-image {
     height: 600px;
     width: 100%;
-    background: url("./images/nature-adventure.jpg") no-repeat center center/cover;
+    background: url("./images/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg") no-repeat center center/cover;
     position: relative;
 }
-background: url("./images/frontpage-lightbulb 2.png") no-repeat center center/cover;
 
 #cover-text {
-    font-size:100%;
+    font-size: 95%;
     position:absolute;
     bottom: 60px;
-    min-height: 200px;
-    padding-top: 40px;
+    min-height: 140px;
+    padding-top: 10px;
     padding-left: 10px;
-    width: 80%;
+    padding-bottom:10px;
+    width: 90%;
+    background-color: #042322de;
+    margin:0;
+    text-align: justify;
+    
+    
     
 }
 
 #cover-text > h2 {
-    font-size: 200%;
+    font-size: 150%;
 }
 
+
 #cover-text > h2, #cover-text > h3 {
-    color: #ffffff;
+    color: #D3F2E9;
     text-align:left;
+    line-height: 1.2;
+    
 }
 
 #purpose {
@@ -221,9 +229,9 @@ ul {
 /* Testimonials */
 
 #testimonials {
-    padding: 1rem 0;
+    padding: 0 0 2rem 0;
 	margin-bottom: 80px;
-	background: url('./images/think-positive.jpg') center center / cover no-repeat fixed;
+	background: url('./images/testimonial-image.jpg') center center / cover no-repeat fixed;
 }
 
 #testimonials > h3 {
@@ -238,7 +246,7 @@ ul {
 .testimonials-box {
     line-height: 20px;
     margin-bottom: 2rem;
-    background-color: #029dabe4;
+    background-color: #dbf1f3e4;
 }
 
 .testimonials-box > h2 {
@@ -324,6 +332,10 @@ ul {
 
 /* Footer */
 
+footer {
+    background-color: #0A7B79;
+}
+
 #social-network {
     text-align: center;
     padding: 20px 0;
@@ -335,7 +347,7 @@ ul {
 #social-network i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #ffffff;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -370,6 +382,12 @@ ul {
     }
 
     /* Main content */
+
+    #front-image {
+        height: 600px;
+        width: 100%;
+    }
+
      main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
