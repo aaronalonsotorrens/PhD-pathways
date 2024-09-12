@@ -172,7 +172,7 @@ main {
 
 #careers > h3 {
     background-color: #026670;
-    font-size:140%;
+    font-size:160%;
     padding: 0.5rem;
     margin-bottom: 2rem;
     text-align:center;
@@ -181,14 +181,14 @@ main {
 
 .careers-box > h2 {
     font-weight: bold;
-    font-size:140%;
+    font-size:200%;
     margin-bottom: 2%;
     text-align: center;
 }
 
 ul {
     list-style-type: none;
-    font-size: 120%;
+    font-size: 160%;
     line-height: 1.5;
 }
 
@@ -236,7 +236,7 @@ ul {
 
 #testimonials > h3 {
     background-color: #026670;
-    font-size:140%;
+    font-size:160%;
     padding: 0.5rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -251,13 +251,13 @@ ul {
 
 .testimonials-box > h2 {
     padding: 10px 20px;
-    font-size: 100%;
+    font-size: 140%;
     line-height: 1.5;
 }
 
 .testimonials-box p {
     padding: 10px 20px;
-    font-size: 90%;
+    font-size: 120%;
     line-height: 1.5;
     text-align:justify;
 }
@@ -270,7 +270,7 @@ ul {
 
 #support > h3 {
     background-color: #026670;
-    font-size:140%;
+    font-size:160%;
     padding: 0.5rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -301,6 +301,18 @@ ul {
     flex: 1; /* Each section takes one-third of the container width */
     box-sizing: border-box;
     text-align: center;
+}
+
+.support-material a {
+    text-decoration: none;
+    color:#026670;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+
+.support-material a:hover {
+    text-decoration: underline;
+    color:#000000;
 }
 
 #proteintech-mat, #singular-mat, #ukri-mat {
