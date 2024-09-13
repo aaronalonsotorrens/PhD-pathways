@@ -583,7 +583,7 @@ footer {
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-    padding: 40% 20% 40% 10%;
+    padding: 40% 10% 40% 10%;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
