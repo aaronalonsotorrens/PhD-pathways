@@ -169,6 +169,10 @@ main {
 
 /* Careers */
 
+#careers {
+    scroll-margin-top: 200px;
+}
+
 #careers > h3 {
     background-color: #026670;
     font-size:140%;
@@ -180,15 +184,15 @@ main {
 
 .careers-box > h2 {
     font-weight: bold;
-    font-size:140%;
+    font-size:180%;
     margin-bottom: 2%;
     text-align: center;
 }
 
 ul {
     list-style-type: none;
-    font-size: 120%;
-    line-height: 1.5;
+    font-size: 160%;
+    line-height: 2.5;
 }
 
 
@@ -229,8 +233,9 @@ ul {
 
 #testimonials {
     padding: 0 0 2rem 0;
-	margin-bottom: 80px;
 	background: url('./images/testimonial-image.jpg') center center / cover no-repeat fixed;
+    margin-bottom: 2rem;
+    scroll-margin-top: 200px;
 }
 
 #testimonials > h3 {
@@ -250,13 +255,13 @@ ul {
 
 .testimonials-box > h2 {
     padding: 10px 20px;
-    font-size: 100%;
+    font-size: 120%;
     line-height: 1.5;
 }
 
 .testimonials-box p {
     padding: 10px 20px;
-    font-size: 90%;
+    font-size: 110%;
     line-height: 1.5;
     text-align:justify;
 }
@@ -379,6 +384,7 @@ footer {
 
     #menu > li {
         padding-left: 1rem;
+        font-size: 120%;
     }
 
     .nav-toggle-label {
@@ -386,7 +392,7 @@ footer {
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 220%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -482,9 +488,33 @@ footer {
     }
 }
 
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1024px) {
     #front-image {
     height: 800px;
+    }
+
+    #logo {
+        font-size: 260%;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+        font-size: 140%;
+    }
+
+    #signup {
+        background-position: center;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    #signup-form {
+        max-width: 600px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+        font-size: 110%;
     }
 }
 
@@ -495,7 +525,6 @@ footer {
     background-image: url("./images/signup-adventure-begin.jpg");
     background-size: cover;
     background-position: 75%;
-    padding: 20% 20% 10% 10%;
     background-position: 30%;
     padding: 40% 20% 40% 10%;
     flex-grow: 1;
@@ -503,7 +532,6 @@ footer {
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
     background-color: rgba(60, 60, 60, 0.85);
     padding: 30px;
     width: 120%;
@@ -556,10 +584,17 @@ footer {
     padding: 40% 20% 40% 10%;
     flex-grow: 1;
     margin-top: 20px;
+    min-height: 800px;
 }
 
 #submit-form {
     color: #fafafa;
     font-size: 200%;
     text-align:center;
+    background-color: rgba(60, 60, 60, 0.85);
+}
+
+#submit-form > h2 {
+    color: #fafafa;
+    
 }
