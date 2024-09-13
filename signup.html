@@ -38,10 +38,13 @@
 
     <!--Main content-->
 
-    </main>
+    <main>
         <section id="signup">
-            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
+            <div>
+            <form id="signup-form" method="GET" action="submit.html">
+                <h2>Make your voice heard!</h2>
+                <br>
+                <h3>Sign up and decide what you need! <i class="fa-regular fa-face-smile-beam"></i></h3>
                 <label for="first-name">First Name</label>
                 <input type="text" name="first_name" id="first-name" class="text-input" required>
                 <br>
@@ -53,16 +56,16 @@
                 <br>
                 <div class="radio-buttons">
                     <div>
-                        <label for="road">Workshop</label>
-                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                        <label for="workshop">Workshop</label>
+                        <input type="radio" name="support_preference" id="workshop" value="workshop" required checked>
                     </div>
                     <div>
-                        <label for="trail">Career panel</label>
-                        <input type="radio" name="running_preference" id="trail" value="trail" required>
+                        <label for="career-panel">Career panel</label>
+                        <input type="radio" name="support_preference" id="career-panel" value="career-panel" required>
                     </div>
                     <div>
                         <label for="both">Both</label>
-                        <input type="radio" name="running_preference" id="both" value="both" required>
+                        <input type="radio" name="support_preference" id="both" value="both" required>
                     </div>
                 </div>
                 <button type="submit" class="join-button">Let's Make It Happen!</button>
