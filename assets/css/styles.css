@@ -369,7 +369,7 @@ footer {
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-    padding: 40% 10% 40% 10%;
+    padding: 20% 10% 40% 10%;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
@@ -377,7 +377,7 @@ footer {
 
 #submit-form {
     color: #fafafa;
-    font-size: 200%;
+    font-size: 140%;
     text-align:center;
     background-color: rgba(60, 60, 60, 0.85);
 }
