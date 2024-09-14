@@ -444,10 +444,9 @@ footer {
     /* Support */
 
     .support-material {
-        .support-material {
-            flex: 1 1 100%; /* Each section takes the full width */
-    }
-}
+            flex: 1 1 100%;
+        }
+
     #proteintech-mat, #singular-mat, #ukri-mat {
         text-align: center;
     }
