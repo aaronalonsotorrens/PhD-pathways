@@ -380,6 +380,9 @@ Background image in signup and submit form.
 5. ChatGPT:
 - ChatGPT was used as a tool to troubleshoot some of the issues that remained challenging. Any suggestions provided by chatGPT were tested on Chrome Dev tools to further understand the suggested solution and understand where I was struggling.
 
+6. To further understand what was needed in the README document my mentor provided the following project as an example:
+-https://github.com/PatrycjaBlaszkowska/project-WizardsTower
+
 ### Thank you to everyone who read this documentation!
 
 
