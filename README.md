@@ -10,6 +10,12 @@ User will be able to navigate throught the website using a functional navigation
 
 Thank you for visiting PhD pathways.
 
+![alt text][responsive-readme]
+
+[responsive-readme]:./assets/css/images/responsive-readme.png
+
+https://aaronalonsotorrens.github.io/Project-1-Final/
+
 ## UX - User Experience Design
 
 The 5 planes of UX are the following:
@@ -127,10 +133,10 @@ Font
 
 Images downloaded for this project are from:
 
-- Shopify
+- Pexels
 - Unsplash
 - Google images
-
+- Pixabay
 
 ### The Skeleton Plane
 
@@ -297,7 +303,7 @@ During development, webpage was mainly tested on Google Chrome. However, other b
 
 #### Validation
 
-HTML validator
+**HTML validator**
 
 - 0 errors
 - 0 warnings
@@ -306,7 +312,7 @@ HTML validator
 
 [HTML-validator]: ./assets/css/images/HTML-validator.png
 
-CSS validator
+**CSS validator**
 
 - 0 errors
 - 0 warnings
@@ -315,13 +321,30 @@ CSS validator
 
 [css-validator]: ./assets/css/images/css-validator.png
 
+**Lighthouse score**
+
+![alt text][lighthouse-score]
+
+[lighthouse-score]: ./assets/css/images/lighthouse-score.png
+
 #### Bugs and Fixes
 
 1. Display of support elements as an in-line block while positioning the text just below kept failing across different screen resoultions.
 
 - Resolved by adjusting padding, margin and width of different elements accordingly across all screens.
 
-2. Anchor elemenSubmit form/ thank you form.
+2. The button to return home on my submit form was appearing as a bug on the HTML validator due the button element appearing as a descendant of the a element.
+
+![alt text][bug-readme]
+
+[bug-readme]: ./assets/css/images/bug-readme.png
+
+- I learnt that a button was needed in that scenario and the anchor element was sufficient. The issue was resolved my removing the button element.
+
+
+### Unfixed bugs
+
+No unfixed bugs.
 
 ### Deployment
 
@@ -345,9 +368,14 @@ The master branch of this repository is the most current version and has been us
 - Used for all icons across the website.
 
 4. Images :
-- Shopify
+- Pexels
+Image behind testimonials.
 - Unsplash
+ Front-image.
 - Google images
+Images for Proteintech, singular, UK research and innovation.
+- Pixabay
+Background image in signup and submit form.
 
 5. ChatGPT:
 - ChatGPT was used as a tool to troubleshoot some of the issues that remained challenging. Any suggestions provided by chatGPT were tested on Chrome Dev tools to further understand the suggested solution and understand where I was struggling.
