@@ -34,7 +34,7 @@ The 5 planes of UX are the following:
 
 - As a user, I want to navigate easily through the different sections of the webpage.
 
-- As a user, I want content to be clear, I want links works well and to take me content that I want to be interested in.
+- As a user, I want content to be clear, I want links to work well and to take me content that I want to be interested in.
 
 ### The Scope Plane.
 
@@ -50,11 +50,11 @@ For the website there were features I wanted to implement and other I was not ab
 
 - A support section including links to material available online to help them achieve their desired goals.
 
-- A sign up page for then to inform on what resurces they feel they would find helpful.
+- A sign up page for users to inform on what resources they feel they would find helpful.
 
 - A button to take the user back to the home page after filling out the contact form.
 
-- Footer with links to social media and my own personal linkedin page.
+- Footer with links to social media.
 
 ### The Scope plane
 
@@ -121,15 +121,16 @@ The fonts used in this project are Google Fonts.
 
 Font
 
-- I used xxxx as the main font, as it's a user friendly font. The xxx font is easy to read even on the smallest devices and provides a positive user experience.
+- I used "Lato" as the main font, as it's a user friendly font. The xxx font is easy to read even on the smallest devices and provides a positive user experience.
 
 **Images**
 
 Images downloaded for this project are from:
 
-- 
+- Shopify
+- Unsplash
+- Google images
 
-More information in credits section.
 
 ### The Skeleton Plane
 
@@ -327,14 +328,19 @@ CSS validator
 1. Code institute, Love running project:
 - Inspiration for the header, footer and signup page.
 
-2. FontAwesome:
+2. Code institute, Coders-coffeehouse:
+- Inspiration for the careers display section.
+
+3. FontAwesome:
 - Used for all icons across the website.
 
-3. Images :
-
+4. Images :
 - Shopify
 - Unsplash
 - Google images
+
+5. ChatGPT:
+- ChatGPT was used as a tool to troubleshoot some of the issues that remained challenging. Any suggestions provided by chatGPT were tested on Chrome Dev tools to further understand the suggested solution and understand where I was struggling.
 
 ### Thank you to everyone who read this documentation!
 
