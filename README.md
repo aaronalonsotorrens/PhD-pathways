@@ -323,6 +323,16 @@ CSS validator
 
 2. Anchor elemenSubmit form/ thank you form.
 
+### Deployment
+
+The master branch of this repository is the most current version and has been used for the deployed version of the site.
+
+- Open your project on github and go to settings.
+- Proceed and click on pages and change branch to main.
+- Once this has been done the project will have been deployed.
+
+
+
 #### Credits
 
 1. Code institute, Love running project:
