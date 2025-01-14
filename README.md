@@ -14,7 +14,7 @@ Thank you for visiting PhD pathways.
 
 [responsive-readme]:./assets/css/images/responsive-readme.png
 
-https://aaronalonsotorrens.github.io/Project-1-Final/
+https://aaronalonsotorrens.github.io/PhD-pathways/
 
 ## UX - User Experience Design
 
