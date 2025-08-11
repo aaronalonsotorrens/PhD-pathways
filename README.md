@@ -12,7 +12,7 @@ Thank you for visiting PhD pathways.
 
 ![alt text][responsive-readme]
 
-[responsive-readme]:../assets/css/images/responsive-readme.png
+[responsive-readme]:assets/images/responsive-readme.png
 
 https://aaronalonsotorrens.github.io/PhD-pathways/
 
@@ -70,7 +70,7 @@ The following are the list of colours used in this project.
 
 ![alt text][colors-readme]
 
-[colors-readme]:../assets/css/images/colors-readme.png
+[colors-readme]:assets/images/colors-readme.png
 
 - Color #026670
 
@@ -167,13 +167,13 @@ Resource wireframes
 
 ![alt text][navabar-big-screen]
 
-[navabar-big-screen]: ../assets/css/images/navabar-big-screen.png
+[navabar-big-screen]: assets/images/navabar-big-screen.png
 
 **Mobile**
 
 ![alt text][navabar-small-screen]
 
-[navabar-small-screen]: ../assets/css/images/navabar-small-screen.png
+[navabar-small-screen]: assets/images/navabar-small-screen.png
 
 #### Footer :
 
@@ -182,7 +182,7 @@ Resource wireframes
 
 ![alt text][footer-readme]
 
-[footer-readme]: ../assets/css/images/footer-readme.png
+[footer-readme]: assets/images/footer-readme.png
 
 #### Hero images :
 
@@ -190,7 +190,7 @@ Resource wireframes
 
 ![alt text][Hero-readme]
 
-[Hero-readme]: ../assets/css/images/Hero-readme.png
+[Hero-readme]: assets/images/Hero-readme.png
 
 #### Purpose section :
 
@@ -198,7 +198,7 @@ Resource wireframes
 
 ![alt text][Purpose-readme]
 
-[Purpose-readme]: ../assets/css/images/Purpose-readme.png
+[Purpose-readme]: assets/images/Purpose-readme.png
 
 #### Careers content :
 
@@ -206,7 +206,7 @@ Resource wireframes
 
 ![alt text][careers-readme]
 
-[careers-readme]: ../assets/css/images/careers-readme.png
+[careers-readme]: assets/images/careers-readme.png
 
 #### Testimonial content :
 
@@ -214,7 +214,7 @@ Resource wireframes
 
 ![alt text][testimonials-readme]
 
-[testimonials-readme]: ../assets/css/images/testimonials-readme.png
+[testimonials-readme]: assets/images/testimonials-readme.png
 
 #### Support content :
 
@@ -222,7 +222,7 @@ Resource wireframes
 
 ![alt text][support-readme]
 
-[support-readme]: ../assets/css/images/support-readme.png
+[support-readme]: assets/images/support-readme.png
 
 #### Signup :
 
@@ -230,7 +230,7 @@ Resource wireframes
 
 ![alt text][signup-readme]
 
-[signup-readme]: ../assets/css/images/signup-readme.png
+[signup-readme]: assets/images/signup-readme.png
 
 #### Submit page :
 
@@ -238,7 +238,7 @@ Resource wireframes
 
 ![alt text][submit-readme]
 
-[submit-readme]: ../assets/css/images/submit-readme.png
+[submit-readme]: assets/images/submit-readme.png
 
 #### Technologies Used
 
@@ -310,7 +310,7 @@ During development, webpage was mainly tested on Google Chrome. However, other b
 
 ![alt text][HTML-validator]
 
-[HTML-validator]: ../assets/css/images/HTML-validator.png
+[HTML-validator]: assets/images/HTML-validator.png
 
 **CSS validator**
 
@@ -319,13 +319,13 @@ During development, webpage was mainly tested on Google Chrome. However, other b
 
 ![alt text][css-validator]
 
-[css-validator]: ../assets/css/images/css-validator.png
+[css-validator]: assets/images/css-validator.png
 
 **Lighthouse score**
 
 ![alt text][lighthouse-score]
 
-[lighthouse-score]: ../assets/css/images/lighthouse-score.png
+[lighthouse-score]: assets/images/lighthouse-score.png
 
 #### Bugs and Fixes
 
@@ -337,7 +337,7 @@ During development, webpage was mainly tested on Google Chrome. However, other b
 
 ![alt text][bug-readme]
 
-[bug-readme]: ../assets/css/images/bug-readme.png
+[bug-readme]: assets/images/bug-readme.png
 
 - I learnt that a button was needed in that scenario and the anchor element was sufficient. The issue was resolved my removing the button element.
 

@@ -109,7 +109,7 @@ main {
 #front-image {
     height: 600px;
     width: 100%;
-    background: url("../images/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg") no-repeat center center/cover;
+    background: url("assets/images/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -233,7 +233,7 @@ ul {
 
 #testimonials {
     padding: 0 0 2rem 0;
-	background: url('../images/testimonial-image.jpg') center center / cover no-repeat fixed;
+	background: url('assets/images/testimonial-image.jpg') center center / cover no-repeat fixed;
     margin-bottom: 2rem;
     scroll-margin-top: 200px;
 }
@@ -290,15 +290,15 @@ ul {
 }
 
 #proteintech-img {
-    background: url("../images/Proteintech-Group .jpg") no-repeat center center/cover;
+    background: url("assets/images/Proteintech-Group .jpg") no-repeat center center/cover;
 }
 
 #singular-img {
-    background: url("../images/singular.png") no-repeat center center/cover; 
+    background: url("assets/images/singular.png") no-repeat center center/cover; 
 }
 
 #ukri-img {
-    background: url("../images/UKRI_8364f70b77.png") no-repeat center center/cover;
+    background: url("assets/images/UKRI_8364f70b77.png") no-repeat center center/cover;
 }
 
 .support-material {
@@ -365,7 +365,7 @@ footer {
 /*Form*/
 
 #signup {
-    background-image: url("../images/signup-adventure-begin.jpg");
+    background-image: url("assets/images/signup-adventure-begin.jpg");
     background-size: cover;
     background-position: 75%;
     background-position: 30%;
@@ -424,7 +424,7 @@ footer {
 /*Submit form*/
 
 #submit {
-    background-image: url("../images/signup-adventure-begin.jpg");
+    background-image: url("assets/images/signup-adventure-begin.jpg");
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
